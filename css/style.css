@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size : 16px;
+    scroll-behavior: smooth;
+}
+body {
+    background: white;
+    color: #2b343b;
+}
+.header__content {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.header__logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+    font-size: 20px;
+}
+.logo img {
+    width: 50px;
+}
+.logo img:hover, .header__logo i:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.header__logo i {
+    padding: 0 20px;
+}
+.header__logo .logo p {
+    display: inline;
+    font-weight: bold;
+}
+.header__search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__search input {
+    padding: 10px;
+}
+.header__search i {
+    background-color: #f8f8f8;
+    border: 1px solid black;
+    padding: 15px;
+    height: 48px;
+    font-size: 20px;
+}
+.header__search i:hover, .header__info i:hover, .header__info img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.header__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__info i {
+    padding: 15px;
+    font-size: 20px;
+}
+.header__info img {
+    border-radius: 50%;
+    width: 50px;
+    margin-left: 5px;
+}
+.content {
+    width: 90%;
+    margin: auto;
+}
+.youtobe__list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+.youtobe__item img {
+    width: 100%;
+}
+.youtobe__topic {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.youtobe__topic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.youtobe__topic p {
+    font-size: 15px;
+    padding: 0 10px;
+    font-weight: bold;
+    margin: 0;
+}
+.youtobe__topic p:hover, .youtobe__topic img:hover, .youtobe__item img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.youtobe__author {
+    color: #9c9c9c
+}
+.youtobe__author p {
+    margin: 0;
+    font-size: 15px;
+}
